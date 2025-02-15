@@ -79,7 +79,7 @@ int main() {
                 cout << "=======================================================\n";
             }
         }
-        else if (option == 3) { // 2 untuk mengubah data produk berdasarkan id
+        else if (option == 3) { // 3 untuk mengubah data produk berdasarkan id
             string target;
             cout << "Masukkan ID Produk yang Ingin Diubah: ";
             cin >> target; // meminta inputan user berupa id
