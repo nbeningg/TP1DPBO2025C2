@@ -3,7 +3,7 @@
 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya 
 maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. */
 
-// import kelas Petshop dari file Petshop.py
+// import kelas Petshop dari file Petshop.php
 require_once 'Petshop.php';
 session_start();
 
