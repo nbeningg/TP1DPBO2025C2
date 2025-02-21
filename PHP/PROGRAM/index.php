@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $produk->setHarga($_POST['harga']);
 
             if (isset($_FILES['foto']) && $_FILES['foto']['error'] === 0) {
-                $foto = 'photo/' . $_FILES['foto']['name'];
+                $foto = 'photo' . $_FILES['foto']['name'];
                 move_uploaded_file($_FILES['foto']['tmp_name'], $foto);
                 $produk->setFotoProduk($foto);
             }
@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     unlink($oldFoto);
                 }
 
-                $foto = 'photo/' . $_FILES['foto']['name'];
+                $foto = 'photo' . $_FILES['foto']['name'];
                 move_uploaded_file($_FILES['foto']['tmp_name'], $foto);
                 $_SESSION['daftarProduk'][$foundKey]->setFotoProduk($foto);
             }
