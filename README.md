@@ -10,6 +10,7 @@ Program ini memiliki kelas bernama Petshop. Kelas ini merepresentasikan sebuah p
 - **Kategori** : kategori pada setiap produk
 - **Harga** : harga pada setiap produk
 - **Foto** : foto pada setiap produk (khusus untuk implementasi PHP)
+
 Selain itu, di dalam kelas Petshop, terdapat metode **getter dan setter** untuk setiap atributnya
 
 ## Alur Program
